@@ -1,0 +1,14 @@
+.showcase {
+  .showcase-text {
+    padding: 0rem;
+  }
+  .showcase-img {
+    min-height: 0rem;
+    background-size: cover;
+  }
+  @media (min-width: 768px) {
+    .showcase-text {
+      padding: 2rem;
+    }
+  }
+}
